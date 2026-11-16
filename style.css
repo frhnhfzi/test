@@ -1,0 +1,33 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        135deg,
+        #ffe4ec,
+        #f8c8dc,
+        #fce4ec
+    );
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #c2185b;
+    text-align: center;
+    font-size: 35px;
+}
+
+p {
+    color: #88445f;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 18px;
+}
